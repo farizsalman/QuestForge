@@ -25,15 +25,3 @@ class Character:
 
 
 
-    # Level 2 pseudo
-    def __init__(self, ):
-        self._health = health   # use protected (encapsulation)
-        self.__max_health = self.health
-
-    @property
-    def health (self) -> int:
-        return self.health
-
-    @property
-    def is_alive(self) -> bool:
-        return self._health >0
