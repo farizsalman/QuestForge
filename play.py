@@ -41,3 +41,9 @@ if __name__ =="__main__":
     print(orc.describe())
     knight.heal(90)
     print(knight.describe())
+
+
+    # level 2 test
+    hero = Character("Aria",100,15)
+    hero.take_damage(150)
+    print(hero.health)
